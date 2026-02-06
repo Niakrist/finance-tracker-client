@@ -1,10 +1,5 @@
+import { Layout } from '@/layout'
 
-function App() {
-
-
-  return (
-<div>1</div>
-  )
+export const App = () => {
+  return <Layout> Layout </Layout>
 }
-
-export default App
