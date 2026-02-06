@@ -1,0 +1,21 @@
+:root {
+  /* colors */
+  --black1: #000000;
+  --black2: #1b212d;
+  --primary: #333333;
+  --accent: #893da1;
+
+  --grey1: #464646;
+  --grey2: #4d4d4d;
+  --grey3: #909090;
+  --grey4: #687182;
+  --grey5: #969494;
+  --grey-opacity: rgba(0, 0, 0, 0.75);
+
+  --green: #008000;
+  --red: #e01919;
+
+  /* fonts */
+  --font-family: 'Karla', sans-serif;
+  --second-family: 'Inter', sans-serif;
+}
