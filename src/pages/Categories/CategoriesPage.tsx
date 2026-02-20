@@ -1,5 +1,5 @@
-import React from 'react'
+import styles from './CategoriesPage.module.css'
 
 export const CategoriesPage = () => {
-  return <div>Categories</div>
+  return <div className={styles.page}>Categories</div>
 }

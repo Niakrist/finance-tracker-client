@@ -1,5 +1,10 @@
-import React from 'react'
-
+import { Card } from '@/ui'
+import styles from './DashBoardPage.module.css'
 export const DashBoardPage = () => {
-  return <div>DashBoard</div>
+  return (
+    <div className={styles.page}>
+      <Card>DashBoard</Card>
+      <Card>DashBoard</Card>
+    </div>
+  )
 }

@@ -1,4 +1,42 @@
 .wrapper {
-  padding-right: 36px;
+  padding: 32px 32px 0 0;
   background-color: var(--white);
+}
+
+.link {
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-weight: 500;
+  font-size: 15px;
+  color: #464646;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  transition:
+    color 0.3s,
+    background-color 0.3s;
+  position: relative;
+}
+
+.link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #893da1;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.link:hover {
+  color: #893da1;
+  background-color: rgba(137, 61, 161, 0.05);
+}
+
+.link:hover::before {
+  opacity: 1;
 }
