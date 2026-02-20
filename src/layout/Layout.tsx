@@ -3,15 +3,16 @@ import Header from './Header/Header'
 import Sidebar from './Sidebar/Sidebar'
 
 import styles from './Layout.module.css'
+import { Outlet } from 'react-router-dom'
 
-export const Layout = ({ children }: ILayoutProps) => {
+export const Layout = () => {
   return (
-    <main className={styles.layout}>
-      <Sidebar />
-      <div className={styles.wrapper}>
-        <Header />
-        {children}
-      </div>
-    </main>
+    <>
+      <Header />
+      <main className={styles.layout}>
+        <Sidebar />
+        <Outlet />
+      </main>
+    </>
   )
 }

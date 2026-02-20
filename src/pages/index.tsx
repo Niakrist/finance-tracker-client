@@ -1,0 +1,4 @@
+export { AnalyticsPage } from './Analytics/AnalyticsPage'
+export { CategoriesPage } from './Categories/CategoriesPage'
+export { DashBoardPage } from './DashBoard/DashBoardPage'
+export { TransactionsPage } from './Transactions/TransactionsPage'

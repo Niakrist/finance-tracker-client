@@ -2,10 +2,5 @@
   display: grid;
   grid-template-columns: 270px 1fr;
   grid-gap: 32px;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
+  height: 100%;
 }

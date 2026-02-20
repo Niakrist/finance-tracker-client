@@ -1,5 +1,6 @@
-import { Layout } from '@/layout'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './routes'
 
 export const App = () => {
-  return <Layout> Layout </Layout>
+  return <RouterProvider router={router} />
 }
