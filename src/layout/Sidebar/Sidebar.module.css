@@ -40,3 +40,11 @@
 .link:hover::before {
   opacity: 1;
 }
+.link.active {
+  color: #893da1;
+  background-color: rgba(137, 61, 161, 0.05);
+}
+
+.link.active::before {
+  opacity: 1;
+}

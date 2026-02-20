@@ -1,4 +1,5 @@
 import type React from 'react'
+import type { IIconProps } from '../Icon/Icon'
 
 export interface ICardProps extends React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLDivElement>,
@@ -6,4 +7,7 @@ export interface ICardProps extends React.DetailedHTMLProps<
 > {
   children: React.ReactNode
   className?: string
+
+  size: 'small'
+  iconName?: IIconProps['name']
 }

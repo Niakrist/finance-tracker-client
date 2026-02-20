@@ -1,0 +1,25 @@
+.input {
+  border: 1px solid #b6b6b6;
+  border-radius: 8px;
+  padding: 12px;
+
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+
+  transition: border 0.3s;
+}
+
+.input:focus {
+  outline: 1px solid #893da1;
+  border: 1px solid #893da1;
+}
+.input:hover {
+  border: 1px solid #893da1;
+}
+
+.input:placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  color: #b6b6b6;
+}
