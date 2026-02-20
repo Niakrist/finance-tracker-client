@@ -1,4 +1,3 @@
-import type { ILayoutProps } from './Layout.props'
 import Header from './Header/Header'
 import Sidebar from './Sidebar/Sidebar'
 

@@ -1,5 +1,4 @@
-import React from 'react'
-
+import styles from './TransactionsPage.module.css'
 export const TransactionsPage = () => {
-  return <div>Transactions</div>
+  return <div className={styles.page}>Transactions</div>
 }
