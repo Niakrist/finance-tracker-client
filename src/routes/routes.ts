@@ -14,17 +14,18 @@ export const router = createBrowserRouter([
     children: [
       { index: true, Component: DashBoardPage },
       {
-        path: 'analytics',
+        path: '/analytics',
         Component: AnalyticsPage
       },
       {
-        path: 'categories',
+        path: '/categories',
         Component: CategoriesPage
       },
       {
-        path: 'transactions',
+        path: '/transactions',
         Component: TransactionsPage
-      }
+      },
+      { path: '/login' }
     ]
   }
 ])
