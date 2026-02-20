@@ -1,0 +1,39 @@
+.header {
+  text-align: center;
+  padding-bottom: 1.25rem; /* pb-5 */
+  width: 100%;
+}
+
+.title {
+  padding-bottom: 0.5rem; /* pb-1 */
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700; /* font-bold */
+  line-height: 2.25rem;
+}
+
+.description {
+  font-size: 0.875rem; /* text-sm */
+  color: #6b7280; /* text-muted-foreground - приблизительный цвет */
+}
+
+.content {
+  padding: 0;
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* space-y-5 */
+}
+
+.continue {
+  width: 100%;
+}
+
+.buttonToggle {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
