@@ -1,0 +1,35 @@
+.button {
+  padding: 12px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.3s;
+}
+
+.textBlack {
+  color: #000;
+}
+
+.textPurple {
+  color: #893da1;
+}
+.textWhite {
+  color: #fff;
+}
+.bgTransparent {
+  border: 1px solid #893da1;
+}
+
+.bgBlack {
+  border: 1px solid #000;
+}
+
+.bgPurple {
+  background-color: #893da1;
+}
+
+.button:hover {
+  opacity: 1;
+}

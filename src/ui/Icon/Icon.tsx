@@ -5,8 +5,11 @@ import { IconAnalytics } from './icons/IconAnalytics'
 import { IconCategories } from './icons/IconCategories'
 import { IconTransactions } from './icons/IconTransactions'
 import { IconSettings } from './icons/IconSettings'
+import { IconPaid } from './icons/IconPaid'
+import IconArrowDown from './icons/IconArrowDown'
+import IconArrowUp from './icons/IconArrowUp'
 
-interface IIconProps extends React.SVGProps<SVGSVGElement> {
+export interface IIconProps extends React.SVGProps<SVGSVGElement> {
   name:
     | 'iconNotification'
     | 'iconDashboard'
@@ -14,6 +17,9 @@ interface IIconProps extends React.SVGProps<SVGSVGElement> {
     | 'iconCategories'
     | 'iconTransactions'
     | 'iconSettings'
+    | 'iconPaid'
+    | 'iconArrowDown'
+    | 'iconArrowUp'
   className?: string
 }
 
@@ -24,7 +30,10 @@ export const Icon = ({ name, className, ...props }: IIconProps) => {
     iconAnalytics: <IconAnalytics className={className} {...props} />,
     iconCategories: <IconCategories className={className} {...props} />,
     iconTransactions: <IconTransactions className={className} {...props} />,
-    iconSettings: <IconSettings />
+    iconSettings: <IconSettings className={className} {...props} />,
+    iconArrowDown: <IconArrowDown className={className} {...props} />,
+    iconArrowUp: <IconArrowUp className={className} {...props} />,
+    iconPaid: <IconPaid {...props} />
   }
   return icons[name]
 }

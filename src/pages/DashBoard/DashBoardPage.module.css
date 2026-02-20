@@ -1,3 +1,43 @@
 .page {
   padding-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #909090;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 26px;
+  color: #333;
+}
+
+.iconGroup {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #909090;
+}
+
+.up {
+  color: #008000;
+}
+
+.down {
+  color: #e01919;
 }
