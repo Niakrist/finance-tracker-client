@@ -1,0 +1,6 @@
+.layout {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  grid-gap: 32px;
+  height: 100%;
+}
