@@ -1,1 +1,1 @@
-export const SERVER_URL = 'http://localhost:5000'
+export { API_URL, SERVER_URL } from './api.config'
