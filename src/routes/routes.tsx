@@ -10,11 +10,9 @@ import {
 import { createBrowserRouter } from 'react-router-dom'
 import { ProtectedRoute } from '@/components'
 
-const isAuthenticated = true
-
 export const router = createBrowserRouter([
   {
-    element: <ProtectedRoute isAllowed={isAuthenticated} />,
+    element: <ProtectedRoute />,
     children: [
       {
         path: '/',
