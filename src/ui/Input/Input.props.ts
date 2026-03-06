@@ -5,7 +5,7 @@ export interface IInputProps extends React.DetailedHTMLProps<
   HTMLInputElement
 > {
   value: string
-  name: 'text' | 'name' | 'email' | 'password'
+  name: 'text' | 'name' | 'email' | 'password' | 'color' | 'icon'
   onChange: (e: React.ChangeEvent<HTMLInputElement, HTMLInputElement>) => void
   placeholder: string
 }
