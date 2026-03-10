@@ -25,7 +25,8 @@ a {
   font-family: inherit;
 }
 
-input {
+input,
+label {
   font-family: var(--font-family);
 }
 

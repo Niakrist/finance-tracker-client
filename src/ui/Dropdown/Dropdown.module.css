@@ -1,0 +1,38 @@
+.wrapper {
+  max-width: 250px;
+  position: relative;
+}
+
+.list {
+  border: 1px solid #893da1;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  right: 0;
+}
+
+.input {
+  display: none;
+}
+
+.activeBtn {
+  border-radius: 8px 8px 0 0;
+  border-bottom: none;
+}
+
+.label {
+  font-family: var(--font-family);
+  padding: 12px 20px;
+  display: block;
+  cursor: pointer;
+}
+.item + .item {
+  margin-top: 6px;
+}
+
+.labelActive {
+  background-color: #893da1;
+  color: #fff;
+}

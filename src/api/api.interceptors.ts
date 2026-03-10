@@ -2,7 +2,11 @@ import { SERVER_URL } from '@/config'
 import type { CreateAxiosDefaults } from 'axios'
 import { errorCatch, getContentType } from './api.helpers'
 import axios from 'axios'
-import { authService, getAccessToken, removeTokenFromStorage } from '@/service'
+import {
+  getAccessToken,
+  removeTokenFromStorage
+} from '@/service/auth/auth-token.service'
+import { authService } from '@/service/auth/auth.service'
 
 // withCredentials: true - разрешает отправку кук и заголовков авторизации вместе с запросом (необходимо для работы с refresh-токенами в куках).
 const options: CreateAxiosDefaults = {

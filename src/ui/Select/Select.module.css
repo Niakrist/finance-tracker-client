@@ -1,0 +1,35 @@
+.select {
+  border: 1px solid #b6b6b6;
+  border-radius: 8px;
+  padding: 12px;
+
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+
+  transition: border 0.3s;
+  background-color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+.select:focus {
+  outline: 1px solid #893da1;
+  border: 1px solid #893da1;
+}
+
+.select:hover {
+  border: 1px solid #893da1;
+}
+
+.select:invalid {
+  color: #b6b6b6;
+}
+
+.select option {
+  color: #000;
+}
+
+.select option:first-child {
+  color: #b6b6b6;
+}
