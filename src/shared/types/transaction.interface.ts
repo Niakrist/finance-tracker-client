@@ -1,6 +1,6 @@
 export interface ITransaction {
   date: string
-  type: 'income' | 'expense'
+  type: 'INCOME' | 'EXPENSE'
   categoryId: number
   userId: number
 }

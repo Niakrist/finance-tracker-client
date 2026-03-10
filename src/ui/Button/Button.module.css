@@ -33,3 +33,7 @@
 .button:hover {
   opacity: 1;
 }
+
+.full {
+  width: 100%;
+}

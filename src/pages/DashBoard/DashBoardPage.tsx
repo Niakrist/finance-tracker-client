@@ -1,4 +1,4 @@
-import { Button, Card, Icon, Input } from '@/ui'
+import { Button, Card, Dropdown, Icon, Input, Select } from '@/ui'
 import styles from './DashBoardPage.module.css'
 import { useState } from 'react'
 export const DashBoardPage = () => {
@@ -52,6 +52,14 @@ export const DashBoardPage = () => {
           name='text'
           placeholder='placeholder'
         />
+        <Dropdown
+          items={[
+            { key: 'INCOME', value: 'Доходы' },
+            { key: 'EXPENSE', value: 'Расходы' }
+          ]}
+        >
+          Выберите тип
+        </Dropdown>
       </div>
     </div>
   )

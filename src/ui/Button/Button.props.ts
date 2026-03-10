@@ -8,4 +8,6 @@ export interface IButtonProps extends React.DetailedHTMLProps<
   color: 'black' | 'purple' | 'white'
   background: 'transparent' | 'black' | 'purple'
   href?: string
+  size?: 'full'
+  className?: string
 }
